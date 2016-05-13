@@ -1,0 +1,38 @@
+{
+    "name": "pers1307/modul-slider",
+    "description": "Modul slider for Publisher 6.0",
+    "keywords": [
+        "Modul slider", "Publisher"
+    ],
+    "homepage": "https://github.com/pers1307/modul-slider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yirii Pereskokov",
+            "email": "pers1307@mediasite.ru",
+            "homepage": "https://github.com/pers1307/",
+            "role": "PHP developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pers1307\\modul-slider\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "pers1307\\modul-slider\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev": "1.0-dev"
+        }
+    }
+}
